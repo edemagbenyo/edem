@@ -5,7 +5,7 @@ const inquirer = require('inquirer');
 const opn = require('open');
 const edem = require('./src/edem');
 
-program.version('1.0.0')
+program.version('0.0.1')
     .description('Edem on your command-line')
     .parse(process.argv);
 
